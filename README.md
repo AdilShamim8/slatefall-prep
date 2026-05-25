@@ -1,6 +1,8 @@
 # Adaptive Document Preparation System
 ### SLATEFALL — Cloudly AI/ML Intern Assessment
 
+# Project document: https://docs.google.com/document/d/14upXCJf8E4YKpWpLAjL9auZU-WjrQnbhZNs-x7GbelE/edit?usp=sharing
+
 An AI-powered study system that generates adaptive MCQs from the SLATEFALL 
 operational dossier. Sessions adapt based on your performance history — 
 focusing on weak areas and avoiding repetition of mastered content.
