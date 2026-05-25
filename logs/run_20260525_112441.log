@@ -1,0 +1,133 @@
+[2026-05-25 11:24:41] INFO      kb.database                     Database engine created: kb_store\knowledge_base.db
+[2026-05-25 11:24:41] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)
+[2026-05-25 11:24:41] INFO      core.pdf_parser                 Loading PDF: data\SLATEFALL_DOSSIER.pdf
+[2026-05-25 11:24:41] INFO      core.pdf_parser                 Extracted text from 50 pages
+[2026-05-25 11:24:41] INFO      core.pdf_parser                 Section boundaries detected: [1, 2, 3, 4, 5, 6, 7, 8, 10]
+[2026-05-25 11:24:41] INFO      core.pdf_parser                 PDF loaded — 50 pages, 9 sections detected
+[2026-05-25 11:24:41] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)
+[2026-05-25 11:24:42] INFO      core.llm_client                 LLM provider: Groq | model: llama-3.1-8b-instant
+[2026-05-25 11:24:42] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)
+[2026-05-25 11:24:48] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:24:48] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:24:50] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:24:50] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:24:51] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:24:51] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:24:53] INFO      kb.queries                      Found 0 prior sessions for sections [1]
+[2026-05-25 11:24:53] INFO      kb.queries                      Found 0 prior sessions for sections [1]
+[2026-05-25 11:25:02] INFO      kb.queries                      KB snapshot generated: 0 sessions
+[2026-05-25 11:25:08] INFO      kb.queries                      KB snapshot generated: 0 sessions
+[2026-05-25 11:25:09] INFO      kb.queries                      KB snapshot generated: 0 sessions
+[2026-05-25 11:25:18] INFO      core.session_manager            Session starting | sections=[5, 8] | n_per_section=5 | simulate=True
+[2026-05-25 11:25:18] INFO      kb.queries                      Found 0 prior sessions for sections [5, 8]
+[2026-05-25 11:25:18] INFO      core.adaptive_engine            AdaptiveEngine.prepare_session | sections=[5, 8] | n_per_section=5 | has_history=False | is_adaptive=False
+[2026-05-25 11:25:18] INFO      core.adaptive_engine            Loaded 2 PDF sections: [5, 8]
+[2026-05-25 11:25:18] INFO      core.adaptive_engine            Cold start — no prior history for these sections. Generating balanced coverage questions.
+[2026-05-25 11:25:18] INFO      core.mcq_generator              Generating 5 questions | section=5 'Operational Tactics and Combat Doctrine' | adaptive=False
+[2026-05-25 11:25:18] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=155 words
+[2026-05-25 11:25:19] INFO      core.llm_client                 Groq tokens | prompt=316 | completion=621 | total=937
+[2026-05-25 11:25:19] INFO      core.mcq_generator              ✓ Generated 5 questions for section 5
+[2026-05-25 11:25:19] INFO      core.mcq_generator              Generating 5 questions | section=8 'Known Bases, Safehouses, and Operational' | adaptive=False
+[2026-05-25 11:25:19] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=164 words
+[2026-05-25 11:25:42] INFO      kb.queries                      KB snapshot generated: 0 sessions
+[2026-05-25 11:25:44] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:25:44] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:25:45] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:25:45] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:25:46] INFO      core.session_manager            Session starting | sections=[1, 2] | n_per_section=5 | simulate=True
+[2026-05-25 11:25:46] INFO      kb.queries                      Found 0 prior sessions for sections [1, 2]
+[2026-05-25 11:25:46] INFO      core.adaptive_engine            AdaptiveEngine.prepare_session | sections=[1, 2] | n_per_section=5 | has_history=False | is_adaptive=False
+[2026-05-25 11:25:46] INFO      core.adaptive_engine            Loaded 2 PDF sections: [1, 2]
+[2026-05-25 11:25:46] INFO      core.adaptive_engine            Cold start — no prior history for these sections. Generating balanced coverage questions.
+[2026-05-25 11:25:46] INFO      core.mcq_generator              Generating 5 questions | section=1 'Identity, Background, and Public Status' | adaptive=False
+[2026-05-25 11:25:46] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=155 words
+[2026-05-25 11:25:55] INFO      core.llm_client                 Groq tokens | prompt=320 | completion=576 | total=896
+[2026-05-25 11:25:55] INFO      core.mcq_generator              ✓ Generated 5 questions for section 1
+[2026-05-25 11:25:55] INFO      core.mcq_generator              Generating 5 questions | section=2 'Powers, Abilities, and Documented Limits' | adaptive=False
+[2026-05-25 11:25:55] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=155 words
+[2026-05-25 11:26:03] INFO      core.llm_client                 Groq tokens | prompt=322 | completion=717 | total=1039
+[2026-05-25 11:26:03] INFO      core.mcq_generator              ✓ Generated 5 questions for section 2
+[2026-05-25 11:26:03] INFO      core.adaptive_engine            Question generation complete | generated=10 questions | requested=10
+[2026-05-25 11:26:03] INFO      utils.simulator                 AnswerSimulator | accuracy=60% | seed=42
+[2026-05-25 11:26:03] INFO      kb.queries                      Session 1 saved | sections=[1, 2] | score=60.0% (6/10) | adaptive=False | weak_topics=[]
+[2026-05-25 11:26:03] INFO      core.session_manager            Session 1 complete | score=60.0% (6/10) | adaptive=False
+[2026-05-25 11:26:05] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=164 words
+[2026-05-25 11:26:16] INFO      core.llm_client                 Groq tokens | prompt=339 | completion=686 | total=1025
+[2026-05-25 11:26:16] INFO      core.mcq_generator              ✓ Generated 5 questions for section 8
+[2026-05-25 11:26:16] INFO      core.adaptive_engine            Question generation complete | generated=10 questions | requested=10
+[2026-05-25 11:26:16] INFO      utils.simulator                 AnswerSimulator | accuracy=60% | seed=42
+[2026-05-25 11:26:16] INFO      kb.queries                      Session 2 saved | sections=[5, 8] | score=60.0% (6/10) | adaptive=False | weak_topics=[]
+[2026-05-25 11:26:16] INFO      core.session_manager            Session 2 complete | score=60.0% (6/10) | adaptive=False
+[2026-05-25 11:26:16] INFO      utils.exporter                  Questions exported → E:\slatefall-prep\outputs\scenario_b_iter1\questions_iter1.json
+[2026-05-25 11:26:16] INFO      kb.queries                      KB snapshot generated: 2 sessions
+[2026-05-25 11:26:16] INFO      utils.exporter                  KB snapshot exported → E:\slatefall-prep\outputs\scenario_b_iter1\kb_snapshot_iter1.json
+[2026-05-25 11:26:26] INFO      kb.queries                      Weak topics for sections [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]: [('Operational Tactics', 4), ('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:19] INFO      kb.queries                      KB snapshot generated: 2 sessions
+[2026-05-25 11:27:24] INFO      kb.queries                      Weak topics for sections [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]: [('Operational Tactics', 4), ('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:27] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:27] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:27] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:27] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:32] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:32] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:32] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:32] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:33] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:33] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:33] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:33] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:36] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:36] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:36] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:36] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:40] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:40] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:40] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:40] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:41] INFO      kb.queries                      Found 1 prior sessions for sections [1, 2]
+[2026-05-25 11:27:41] INFO      core.adaptive_engine            AdaptiveEngine.prepare_session | sections=[1, 2] | n_per_section=5 | has_history=True | is_adaptive=True
+[2026-05-25 11:27:41] INFO      core.adaptive_engine            Loaded 2 PDF sections: [1, 2]
+[2026-05-25 11:27:41] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Section Identification', 1), ('Requirements Understanding', 1), ('Question Coverage', 1), ('Difficulty Variation', 1)]
+[2026-05-25 11:27:41] INFO      kb.queries                      Found 10 previously asked questions for sections [1, 2]
+[2026-05-25 11:27:41] INFO      core.adaptive_engine            Adaptive context loaded | weak_topics=4 | previously_asked=10
+[2026-05-25 11:27:41] INFO      core.adaptive_engine            Weak topics being targeted this session:
+[2026-05-25 11:27:41] INFO      core.adaptive_engine              → topic='Section Identification' | wrong_count=1 | section=1
+[2026-05-25 11:27:41] INFO      core.adaptive_engine              → topic='Requirements Understanding' | wrong_count=1 | section=1
+[2026-05-25 11:27:41] INFO      core.adaptive_engine              → topic='Question Coverage' | wrong_count=1 | section=1
+[2026-05-25 11:27:41] INFO      core.adaptive_engine              → topic='Difficulty Variation' | wrong_count=1 | section=1
+[2026-05-25 11:27:41] INFO      core.mcq_generator              Generating 5 questions | section=1 'Identity, Background, and Public Status' | adaptive=True
+[2026-05-25 11:27:41] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=353 words
+[2026-05-25 11:27:42] INFO      core.llm_client                 Groq tokens | prompt=597 | completion=746 | total=1343
+[2026-05-25 11:27:42] ERROR     core.llm_client                 JSON parsing failed. Raw response (first 400 chars):
+{
+  "questions": [
+    {
+      "question_text": "Why is Section Identification crucial in a document?",
+      "topic": "Section Identification",
+      "choices": {
+        "A": "It separates unrelated topics.",
+        "B": "It helps readers quickly understand the document's structure.",
+        "C": "It is only necessary for complex documents.",
+        "D": "It is a formatting requirement."
+    
+[2026-05-25 11:27:42] ERROR     core.mcq_generator              Question generation failed for section 1: LLM returned unparseable response. Raw response:
+{
+  "questions": [
+    {
+      "question_text": "Why is Section Identification crucial in a document?",
+      "topic": "Section Identification",
+      "choices": {
+        "A": "It separates unrelated topics.",
+        "B": "It helps readers quickly understand the document's structure.",
+        "C"
+[2026-05-25 11:27:42] INFO      core.mcq_generator              Generating 5 questions | section=2 'Powers, Abilities, and Documented Limits' | adaptive=True
+[2026-05-25 11:27:42] INFO      core.llm_client                 LLM call | provider=groq | model=llama-3.1-8b-instant | prompt_length=337 words
+[2026-05-25 11:27:43] INFO      core.llm_client                 Groq tokens | prompt=571 | completion=739 | total=1310
+[2026-05-25 11:27:43] INFO      core.mcq_generator              ✓ Generated 5 questions for section 2
+[2026-05-25 11:27:43] INFO      core.adaptive_engine            Question generation complete | generated=6 questions | requested=10
+[2026-05-25 11:28:49] INFO      kb.queries                      Session 3 saved | sections=[1, 2] | score=16.7% (1/6) | adaptive=True | weak_topics=['Section Identification', 'Requirements Understanding', 'Question Coverage', 'Difficulty Variation']
+[2026-05-25 11:28:59] INFO      kb.queries                      Found 2 prior sessions for sections [1, 2]
+[2026-05-25 11:28:59] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Requirements Understanding', 3), ('Section Identification', 2), ('Question Coverage', 1), ('Difficulty Variation', 1), ('System Fallback', 1)]
+[2026-05-25 11:28:59] INFO      kb.queries                      Found 2 prior sessions for sections [1, 2]
+[2026-05-25 11:28:59] INFO      kb.queries                      Weak topics for sections [1, 2]: [('Requirements Understanding', 3), ('Section Identification', 2), ('Question Coverage', 1), ('Difficulty Variation', 1), ('System Fallback', 1)]
+[2026-05-25 11:29:01] INFO      kb.queries                      Weak topics for sections [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]: [('Operational Tactics', 4), ('Requirements Understanding', 3), ('Section Identification', 2), ('Question Coverage', 1), ('Difficulty Variation', 1)]

@@ -1,0 +1,28 @@
+# Environment - NEVER commit API keys
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Database - too large, regenerated
+kb_store/*.db
+
+# Logs - regenerated each run
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

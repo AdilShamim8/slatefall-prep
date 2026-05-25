@@ -1,11 +1,17 @@
 # Adaptive Document Preparation System
 ### SLATEFALL — Cloudly AI/ML Intern Assessment
+**Submitted by:** Adil Shamim
 
-# Project document: [Link](https://docs.google.com/document/d/14upXCJf8E4YKpWpLAjL9auZU-WjrQnbhZNs-x7GbelE/edit?usp=sharing)
+An AI-powered adaptive study system that generates MCQs from the
+SLATEFALL operational dossier, tracks performance history, and
+focuses each subsequent session on the user's weak areas.
 
-An AI-powered study system that generates adaptive MCQs from the SLATEFALL 
-operational dossier. Sessions adapt based on your performance history — 
-focusing on weak areas and avoiding repetition of mastered content.
+---
+
+## ⚠️ Important: PDF Required
+
+The `SLATEFALL_DOSSIER.pdf` was provided by Cloudly via email.
+Place it at `data/SLATEFALL_DOSSIER.pdf` before running any commands.
 
 ---
 
@@ -13,23 +19,23 @@ focusing on weak areas and avoiding repetition of mastered content.
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/slatefall-prep.git
+git clone https://github.com/AdilShamim8/slatefall-prep.git
 cd slatefall-prep
 
 # 2. Virtual environment
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 
-# 3. Install dependencies
+# 3. Install
 pip install -r requirements.txt
 
 # 4. Configure
 cp .env.example .env
-# Edit .env — add your GROQ_API_KEY
-# Get free key at: https://console.groq.com
+# Edit .env → add your GROQ_API_KEY
+# Free key at: https://console.groq.com
 
-# 5. Add the PDF
-# Place SLATEFALL_DOSSIER.pdf in the data/ folder
+# 5. Add PDF
+# Place SLATEFALL_DOSSIER.pdf in data/
 
 # 6. Verify
 python main.py list-sections
@@ -37,102 +43,164 @@ python main.py list-sections
 
 ---
 
-## Evaluation Commands
+## Running the Evaluation Scenarios
 
+### Scenario A — Cold Start
 ```bash
-# Scenario A — cold start
 python main.py scenario-a -s 1 -s 2
+# Output: outputs/scenario_a_iter1/
+```
 
-# Scenario B — three adaptive iterations (main evaluation)
+### Scenario B — Three Adaptive Iterations (Main Evaluation)
+```bash
 python main.py scenario-b
+# Output:
+#   outputs/scenario_b_iter1/  ← is_adaptive: false (cold start)
+#   outputs/scenario_b_iter2/  ← is_adaptive: true  (uses iter 1 history)
+#   outputs/scenario_b_iter3/  ← is_adaptive: true  (uses iter 1+2 history)
+```
 
-# Interactive — answer questions yourself
+### Interactive Mode (Answer Questions Yourself)
+```bash
 python main.py interactive -s 1 -s 2
+```
 
-# REST API
+### REST API
+```bash
 python main.py api
 # Docs at: http://localhost:8000/docs
 ```
 
----
-
-## Architecture
-
+### Streamlit UI (Optional)
+```bash
+streamlit run streamlit_app.py
+# Opens at: http://localhost:8501
 ```
-CLI (main.py)
-     │
-     ▼
-SessionManager          ← orchestrates the session
-     ├── AdaptiveEngine ← cold-start vs adaptive decision
-     │        ├── KnowledgeBase (SQLite) ← reads history
-     │        └── PDFParser (PyMuPDF)    ← reads sections
-     └── MCQGenerator  ← builds prompts, calls LLM
-              └── LLMClient (Groq API)   ← generates questions
+
+### Tests
+```bash
+pytest tests/ -v
 ```
 
 ---
 
-## Stack Choices
+## How Adaptive Intelligence Works
 
-| Component | Choice | Why |
-|-----------|--------|-----|
-| LLM | Groq + Llama 3 8B | Free tier, fast (700 tok/s), no GPU needed |
-| PDF | PyMuPDF | Fast text extraction, reliable on machine-readable PDFs |
-| DB | SQLite + SQLAlchemy | Zero setup, ACID, sufficient for local use |
-| API | FastAPI + Pydantic | Auto-docs, type safety, async-ready |
-| CLI | Click + Rich | Clean commands, beautiful terminal output |
+```
+Session 1 (sections 5, 8) — Cold Start:
+  KB is empty → generate balanced questions
+  User answers → 4/10 correct
+  KB stores: wrong answers on "PAMC Protocol" (3x), "Authorization" (1x)
+
+Session 2 (sections 6, 8, 9) — Adaptive:
+  KB has history → query weak topics for section 8
+  Adaptive prompt: "Focus 60% of questions on PAMC Protocol"
+  Previously asked questions listed → LLM avoids repeating them
+  Result: targeted questions on user's actual weak areas
+
+Session 3 (section 8 only) — Adaptive:
+  KB now has 2 sessions of history
+  More weak topics accumulated → stronger adaptation signal
+  Questions specifically target persistent weak areas
+```
+
+The adaptation happens at **prompt level** — the LLM receives
+the weak topic context before generating, not after.
+
+---
+
+## Project Architecture
+
+```
+CLI (main.py)  ←→  REST API (api/)  ←→  Streamlit UI
+                        |
+                  SessionManager
+                  (core/session_manager.py)
+                        |
+          ┌─────────────┼─────────────┐
+          ↓             ↓             ↓
+    AdaptiveEngine   PDFParser    MCQGenerator
+    (checks KB)     (reads PDF)  (builds prompts)
+          |                           |
+     KnowledgeBase               LLMClient
+     (SQLite)                    (Groq API)
+```
 
 ---
 
 ## Knowledge Base Schema
 
-**PrepSession**
-- `id`, `section_ids` (sorted CSV: "5,8"), `created_at`, `score`
-- `total_questions`, `correct_count`, `is_adaptive`, `weak_topics_used`
+**PrepSession** — one row per study session
+```
+id | section_ids | created_at | score | total_questions
+   | correct_count | is_adaptive | weak_topics_used (JSON)
+```
 
-**QuestionResult**
-- `id`, `session_id` (FK), `section_id`, `question_text`, `topic`
-- `choices` (JSON), `correct_answer`, `user_answer`, `is_correct`, `explanation`
+**QuestionResult** — one row per question asked
+```
+id | session_id (FK) | section_id | question_text | topic
+   | choices (JSON) | correct_answer | user_answer
+   | is_correct | explanation
+```
 
-Key queries supported:
-- Sessions by section → string overlap on `section_ids`
-- Weak topics → `GROUP BY topic WHERE is_correct=0`  
+**Key query patterns:**
+- Sessions by section → string match on `section_ids` column
+- Weak topics → `GROUP BY topic WHERE is_correct=0 ORDER BY count DESC`
 - KB snapshot → `ORDER BY created_at DESC LIMIT 5`
 
 ---
 
-## Adaptive Intelligence
+## Stack Choices & Reasoning
 
-1. **Cold start**: No history → broad, balanced questions
-2. **Return run**: KB queried for weak topics + asked questions
-3. Weak topics injected as **primary frame** in LLM prompt
-4. Previously asked questions listed explicitly (avoid repetition)
-5. 60%+ of adaptive questions target weak areas
+| Component | Choice | Why |
+|-----------|--------|-----|
+| LLM | Groq + Llama 3 8B | Free tier, 700 tok/s, no GPU needed |
+| PDF | PyMuPDF | Fast, reliable text extraction |
+| Database | SQLite + SQLAlchemy | Zero setup, ACID, sufficient locally |
+| API | FastAPI + Pydantic | Auto-docs, type safety, validation |
+| CLI | Click + Rich | Clean commands, beautiful output |
+| UI | Streamlit | Pure Python, fast to build |
 
 ---
 
 ## Section Mapping
 
-Run `python main.py list-sections` to see detected sections.
-If regex detection fails, system falls back to equal page splits.
-See `core/pdf_parser.py` `_parse_sections()` to adjust patterns.
+Run `python main.py list-sections` to see all detected sections.
+
+If the PDF heading format does not match the regex patterns,
+the system falls back to equal page-based splitting (10 sections).
+The fallback always produces working sections regardless of PDF format.
 
 ---
 
 ## Known Limitations
 
-- Question deduplication uses exact string match (not semantic similarity)
-- LLM sometimes returns fewer questions than requested (~10% of calls)
-- Section detection depends on PDF heading format — verify with list-sections
-- Simulated answers use fixed accuracy (documented, not real user data)
-- LLM explanations may vary — grounded in text but not guaranteed accurate
+1. **Question deduplication** uses exact string matching, not semantic
+   similarity. Two questions about the same concept with different wording
+   could both appear. Fix: sentence embeddings + cosine similarity.
+
+2. **LLM yield variability** — LLM sometimes returns fewer questions
+   than requested (~10% of calls). System continues with partial set
+   and logs a warning.
+
+3. **Section detection** depends on regex pattern matching PDF headings.
+   Run `list-sections` to verify detection worked. Fallback always active.
+
+4. **Simulated answers** use fixed accuracy (60% correct, 35% on weak
+   topics). This is artificial but creates realistic KB data for
+   demonstrating adaptive behavior.
 
 ---
 
-## Running Tests
+## Pre-Generated Evaluation Outputs
 
-```bash
-pytest tests/ -v
-pytest tests/test_kb.py -v          # KB tests only
-pytest tests/test_mcq_generator.py  # MCQ tests only
+The `outputs/` folder contains pre-generated results
+from running both scenarios, so reviewers can verify
+adaptive behavior without running the full system:
+
+```
+outputs/scenario_a_iter1/   ← cold start demo
+outputs/scenario_b_iter1/   ← iter 1: is_adaptive=false
+outputs/scenario_b_iter2/   ← iter 2: is_adaptive=true
+outputs/scenario_b_iter3/   ← iter 3: is_adaptive=true, more weak topics
 ```

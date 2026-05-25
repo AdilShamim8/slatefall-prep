@@ -2,7 +2,7 @@
   "metadata": {
     "iteration": 1,
     "scenario": "scenario_b",
-    "session_id": 1,
+    "session_id": 2,
     "section_ids": [
       5,
       8
@@ -11,20 +11,20 @@
     "total_questions": 10,
     "correct_answers": 6,
     "score_percentage": "60.0%",
-    "generated_at": "2026-05-22T06:08:20.331367",
+    "generated_at": "2026-05-25T05:26:16.624740",
     "weak_topics_used": []
   },
   "questions": [
     {
-      "question_text": "What is the name of the section?",
+      "question_text": "What is the primary focus of Operational Tactics and Combat Doctrine?",
       "choices": {
-        "A": "Operational Plans",
-        "B": "Operational Tactics and Combat Doctrine",
-        "C": "Tactical Doctrine",
-        "D": "Combat Operations"
+        "A": "Battlefield strategy and leadership",
+        "B": "Tactical execution and logistics",
+        "C": "Operational planning and doctrine",
+        "D": "Intelligence gathering and analysis"
       },
-      "correct_answer": "B",
-      "explanation": "B is correct because the text explicitly states 'SECTION: Operational Tactics and Combat Doctrine'.",
+      "correct_answer": "C",
+      "explanation": "A is correct because [specific reference to text].",
       "topic": "Operational Tactics",
       "section_id": 5,
       "user_answer": "A",
@@ -32,146 +32,146 @@
       "question_number": 1
     },
     {
-      "question_text": "What type of knowledge is the section intended to measure?",
+      "question_text": "What is implied by the lack of specific details in the provided text?",
       "choices": {
-        "A": "Surface-level Memorization",
-        "B": "Genuine Understanding",
-        "C": "Critical Thinking",
-        "D": "Analytical Skills"
+        "A": "The text provides a comprehensive overview",
+        "B": "The text assumes prior knowledge of the topic",
+        "C": "The text is a general introduction to the topic",
+        "D": "The text is a summary of key points"
       },
       "correct_answer": "B",
-      "explanation": "B is correct because the requirements specify that each question should 'test genuine understanding, not surface memorization'.",
-      "topic": "Assessment Type",
+      "explanation": "The text implies this because it only contains a section title and no other details.",
+      "topic": "Operational Tactics",
       "section_id": 5,
       "user_answer": "A",
       "is_correct": false,
       "question_number": 2
     },
     {
-      "question_text": "Which of the following is NOT a requirement for the questions?",
+      "question_text": "What type of content would you expect to find in the Operational Tactics and Combat Doctrine section?",
       "choices": {
-        "A": "Each question must be clear and specific",
-        "B": "All choices must be plausible",
-        "C": "The correct answer must be obvious",
-        "D": "All 4 choices must be plausible"
+        "A": "Theoretical discussions and philosophical debates",
+        "B": "Historical accounts and case studies",
+        "C": "Practical guidelines and tactical procedures",
+        "D": "Strategic planning and policy documents"
       },
       "correct_answer": "C",
-      "explanation": "C is correct because the requirements explicitly state that 'All 4 choices must be plausible (no obviously wrong options)', which is the opposite of option C.",
-      "topic": "Question Requirements",
+      "explanation": "You would expect to find this type of content because the title suggests a focus on operational tactics and combat doctrine.",
+      "topic": "Combat Doctrine",
       "section_id": 5,
       "user_answer": "C",
       "is_correct": true,
       "question_number": 3
     },
     {
-      "question_text": "What is the purpose of varying the difficulty of the questions?",
+      "question_text": "What is the purpose of the Operational Tactics and Combat Doctrine section?",
       "choices": {
-        "A": "To make the assessment more challenging",
-        "B": "To provide a range of question types",
-        "C": "To cover different topics and concepts",
-        "D": "To increase the time required to complete the assessment"
+        "A": "To provide a comprehensive overview of the topic",
+        "B": "To introduce the reader to the topic",
+        "C": "To outline the key points of the topic",
+        "D": "To provide a framework for understanding the topic"
       },
-      "correct_answer": "C",
-      "explanation": "C is correct because the requirements state that 'no two questions should test the same idea' and 'questions should vary in difficulty'.",
-      "topic": "Question Difficulty",
+      "correct_answer": "D",
+      "explanation": "The purpose of this section is to provide a framework for understanding the topic, as the title suggests.",
+      "topic": "Operational Tactics",
       "section_id": 5,
-      "user_answer": "D",
+      "user_answer": "C",
       "is_correct": false,
       "question_number": 4
     },
     {
-      "question_text": "What does the section heading imply about the content of the section?",
+      "question_text": "What can be inferred about the level of detail in the provided text?",
       "choices": {
-        "A": "It will cover operational plans and tactics",
-        "B": "It will focus on combat doctrine and operational tactics",
-        "C": "It will cover only combat operations",
-        "D": "It will focus on tactical doctrine"
+        "A": "The text provides a high level of detail",
+        "B": "The text provides a moderate level of detail",
+        "C": "The text provides a low level of detail",
+        "D": "The text provides no detail"
       },
-      "correct_answer": "B",
-      "explanation": "B is correct because the section heading explicitly states 'Operational Tactics and Combat Doctrine', implying a focus on both topics.",
-      "topic": "Section Content",
+      "correct_answer": "C",
+      "explanation": "This can be inferred because the text only contains a section title and no other details.",
+      "topic": "Operational Tactics",
       "section_id": 5,
       "user_answer": "D",
       "is_correct": false,
       "question_number": 5
     },
     {
-      "question_text": "What types of information are documented in case files?",
+      "question_text": "What type of information is documented in 'Case Files'?",
       "choices": {
-        "A": "Known Bases and Safehouses",
+        "A": "Operational meetings and plans",
         "B": "Documented Engagements and Incidents",
-        "C": "Operational Territory and Plans",
-        "D": "Tactical Operations and Strategies"
+        "C": "Known Bases and Safehouses",
+        "D": "Personnel records and training"
       },
       "correct_answer": "B",
-      "explanation": "B is correct because the text specifically mentions 'Case Files: Documented Engagements and Incidents'.",
-      "topic": "Case Files",
+      "explanation": "B is correct because the text mentions 'Case Files: Documented Engagements and Incidents'.",
+      "topic": "Case Files and Documentation",
       "section_id": 8,
       "user_answer": "B",
       "is_correct": true,
       "question_number": 6
     },
     {
-      "question_text": "Where are safehouses typically located?",
+      "question_text": "What is the purpose of listing 'Known Bases, Safehouses, and Operational Territory'?",
       "choices": {
-        "A": "Operational Territory",
-        "B": "Known Bases",
-        "C": "Remote areas outside of operational territory",
-        "D": "Public areas with high foot traffic"
+        "A": "To plan new operations",
+        "B": "To document past incidents",
+        "C": "To keep track of secure locations and areas of operation",
+        "D": "To identify potential targets for future engagements"
       },
       "correct_answer": "C",
-      "explanation": "C is correct because the text implies safehouses are located outside of known operational territory, as they are referred to as 'safehouses'.",
-      "topic": "Safehouses",
+      "explanation": "C is correct because the text implies that listing 'Known Bases, Safehouses, and Operational Territory' is essential for tracking secure locations and areas of operation.",
+      "topic": "Known Bases and Operational Territory",
       "section_id": 8,
       "user_answer": "C",
       "is_correct": true,
       "question_number": 7
     },
     {
-      "question_text": "What do the listed sections suggest about the organization's focus?",
+      "question_text": "What two types of information are documented in sections 8 and 9?",
       "choices": {
-        "A": "Logistical Support and Supply Chain Management",
-        "B": "Intelligence Gathering and Tactical Operations",
-        "C": "Security and Counter-Intelligence",
-        "D": "Administrative and Bureaucratic Tasks"
+        "A": "Known Bases and Operational Territory, and Case Files",
+        "B": "Safehouses and Documented Engagements, and Incidents",
+        "C": "Operational Territory and Personnel Records, and Training",
+        "D": "Known Bases and Safehouses, and Past Incidents"
       },
-      "correct_answer": "B",
-      "explanation": "B is correct because the listed sections, such as 'Known Bases, Safehouses, and Operational Territory', suggest a focus on planning and executing tactical operations.",
-      "topic": "Organization Focus",
+      "correct_answer": "A",
+      "explanation": "A is correct because the text lists 'Known Bases, Safehouses, and Operational Territory' in section 8, and 'Case Files: Documented Engagements and Incidents' in section 9.",
+      "topic": "Multiple Topics",
       "section_id": 8,
-      "user_answer": "B",
+      "user_answer": "A",
       "is_correct": true,
       "question_number": 8
     },
     {
-      "question_text": "What is the purpose of listing known bases and safehouses?",
+      "question_text": "What is not explicitly mentioned as a topic in sections 8 and 9?",
       "choices": {
-        "A": "To conceal the organization's operational territory",
-        "B": "To document and secure the organization's operational territory",
-        "C": "To plan and coordinate tactical operations",
-        "D": "To manage the organization's logistical supply chain"
+        "A": "Operational meetings and plans",
+        "B": "Personnel records and training",
+        "C": "Documented Engagements and Incidents",
+        "D": "New operations and targets"
       },
       "correct_answer": "B",
-      "explanation": "B is correct because listing known bases and safehouses would allow the organization to document and secure their operational territory.",
-      "topic": "Known Bases and Safehouses",
+      "explanation": "B is correct because the text does not explicitly mention 'Personnel records and training' as a topic in sections 8 and 9.",
+      "topic": "Missing Topics",
       "section_id": 8,
       "user_answer": "B",
       "is_correct": true,
       "question_number": 9
     },
     {
-      "question_text": "What is implied about the organization's operational territory?",
+      "question_text": "How many sections are mentioned in relation to 'Known Bases, Safehouses, and Operational Territory'?",
       "choices": {
-        "A": "It is highly secure and well-defended",
-        "B": "It is highly classified and restricted",
-        "C": "It is known and documented",
-        "D": "It is constantly changing and dynamic"
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
       },
-      "correct_answer": "C",
-      "explanation": "C is correct because the text lists 'Known Bases, Safehouses, and Operational Territory', implying that the operational territory is known and documented.",
-      "topic": "Operational Territory",
+      "correct_answer": "A",
+      "explanation": "A is correct because the text mentions that 'Known Bases, Safehouses, and Operational Territory' is listed in section 8, but does not provide information about other sections.",
+      "topic": "Section Numbers",
       "section_id": 8,
-      "user_answer": "C",
+      "user_answer": "A",
       "is_correct": true,
       "question_number": 10
     }
