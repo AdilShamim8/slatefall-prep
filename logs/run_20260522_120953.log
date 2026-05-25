@@ -1,2 +1,0 @@
-[2026-05-22 12:09:54] INFO      kb.database                     Database engine created: kb_store\knowledge_base.db
-[2026-05-22 12:09:54] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)

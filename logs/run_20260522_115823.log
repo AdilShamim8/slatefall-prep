@@ -1,6 +1,0 @@
-[2026-05-22 11:58:23] INFO      kb.database                     Database engine created: kb_store\knowledge_base.db
-[2026-05-22 11:58:23] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)
-[2026-05-22 11:58:23] INFO      core.pdf_parser                 Loading PDF: data\SLATEFALL_DOSSIER.pdf
-[2026-05-22 11:58:24] INFO      core.pdf_parser                 Extracted text from 50 pages
-[2026-05-22 11:58:24] INFO      core.pdf_parser                 Section boundaries detected: [1, 2, 3, 4, 5, 6, 7, 8, 10]
-[2026-05-22 11:58:24] INFO      core.pdf_parser                 PDF loaded — 50 pages, 9 sections detected
