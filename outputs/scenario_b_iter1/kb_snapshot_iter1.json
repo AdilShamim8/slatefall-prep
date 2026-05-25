@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "iteration": 1,
+    "scenario": "scenario_b",
+    "snapshot_taken_at": "2026-05-22T06:08:20.332366",
+    "current_session_id": 1,
+    "description": "Top-5 most recent sessions at the moment this iteration completed. Reviewers use this to verify KB state and adaptive prompting grounds in real data."
+  },
+  "recent_sessions": [
+    {
+      "id": 1,
+      "section_ids": "5,8",
+      "created_at": "2026-05-22T06:08:20.310660",
+      "score": 0.6,
+      "total_questions": 10,
+      "correct_count": 6,
+      "percentage": "60.0%",
+      "is_adaptive": false,
+      "weak_topics_used": [],
+      "questions": [
+        {
+          "id": 1,
+          "session_id": 1,
+          "section_id": 5,
+          "question_text": "What is the name of the section?",
+          "topic": "Operational Tactics",
+          "choices": {
+            "A": "Operational Plans",
+            "B": "Operational Tactics and Combat Doctrine",
+            "C": "Tactical Doctrine",
+            "D": "Combat Operations"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "B is correct because the text explicitly states 'SECTION: Operational Tactics and Combat Doctrine'."
+        },
+        {
+          "id": 2,
+          "session_id": 1,
+          "section_id": 5,
+          "question_text": "What type of knowledge is the section intended to measure?",
+          "topic": "Assessment Type",
+          "choices": {
+            "A": "Surface-level Memorization",
+            "B": "Genuine Understanding",
+            "C": "Critical Thinking",
+            "D": "Analytical Skills"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "B is correct because the requirements specify that each question should 'test genuine understanding, not surface memorization'."
+        },
+        {
+          "id": 3,
+          "session_id": 1,
+          "section_id": 5,
+          "question_text": "Which of the following is NOT a requirement for the questions?",
+          "topic": "Question Requirements",
+          "choices": {
+            "A": "Each question must be clear and specific",
+            "B": "All choices must be plausible",
+            "C": "The correct answer must be obvious",
+            "D": "All 4 choices must be plausible"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "C is correct because the requirements explicitly state that 'All 4 choices must be plausible (no obviously wrong options)', which is the opposite of option C."
+        },
+        {
+          "id": 4,
+          "session_id": 1,
+          "section_id": 5,
+          "question_text": "What is the purpose of varying the difficulty of the questions?",
+          "topic": "Question Difficulty",
+          "choices": {
+            "A": "To make the assessment more challenging",
+            "B": "To provide a range of question types",
+            "C": "To cover different topics and concepts",
+            "D": "To increase the time required to complete the assessment"
+          },
+          "correct_answer": "C",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "C is correct because the requirements state that 'no two questions should test the same idea' and 'questions should vary in difficulty'."
+        },
+        {
+          "id": 5,
+          "session_id": 1,
+          "section_id": 5,
+          "question_text": "What does the section heading imply about the content of the section?",
+          "topic": "Section Content",
+          "choices": {
+            "A": "It will cover operational plans and tactics",
+            "B": "It will focus on combat doctrine and operational tactics",
+            "C": "It will cover only combat operations",
+            "D": "It will focus on tactical doctrine"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "B is correct because the section heading explicitly states 'Operational Tactics and Combat Doctrine', implying a focus on both topics."
+        },
+        {
+          "id": 6,
+          "session_id": 1,
+          "section_id": 8,
+          "question_text": "What types of information are documented in case files?",
+          "topic": "Case Files",
+          "choices": {
+            "A": "Known Bases and Safehouses",
+            "B": "Documented Engagements and Incidents",
+            "C": "Operational Territory and Plans",
+            "D": "Tactical Operations and Strategies"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "B is correct because the text specifically mentions 'Case Files: Documented Engagements and Incidents'."
+        },
+        {
+          "id": 7,
+          "session_id": 1,
+          "section_id": 8,
+          "question_text": "Where are safehouses typically located?",
+          "topic": "Safehouses",
+          "choices": {
+            "A": "Operational Territory",
+            "B": "Known Bases",
+            "C": "Remote areas outside of operational territory",
+            "D": "Public areas with high foot traffic"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "C is correct because the text implies safehouses are located outside of known operational territory, as they are referred to as 'safehouses'."
+        },
+        {
+          "id": 8,
+          "session_id": 1,
+          "section_id": 8,
+          "question_text": "What do the listed sections suggest about the organization's focus?",
+          "topic": "Organization Focus",
+          "choices": {
+            "A": "Logistical Support and Supply Chain Management",
+            "B": "Intelligence Gathering and Tactical Operations",
+            "C": "Security and Counter-Intelligence",
+            "D": "Administrative and Bureaucratic Tasks"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "B is correct because the listed sections, such as 'Known Bases, Safehouses, and Operational Territory', suggest a focus on planning and executing tactical operations."
+        },
+        {
+          "id": 9,
+          "session_id": 1,
+          "section_id": 8,
+          "question_text": "What is the purpose of listing known bases and safehouses?",
+          "topic": "Known Bases and Safehouses",
+          "choices": {
+            "A": "To conceal the organization's operational territory",
+            "B": "To document and secure the organization's operational territory",
+            "C": "To plan and coordinate tactical operations",
+            "D": "To manage the organization's logistical supply chain"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "B is correct because listing known bases and safehouses would allow the organization to document and secure their operational territory."
+        },
+        {
+          "id": 10,
+          "session_id": 1,
+          "section_id": 8,
+          "question_text": "What is implied about the organization's operational territory?",
+          "topic": "Operational Territory",
+          "choices": {
+            "A": "It is highly secure and well-defended",
+            "B": "It is highly classified and restricted",
+            "C": "It is known and documented",
+            "D": "It is constantly changing and dynamic"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "C is correct because the text lists 'Known Bases, Safehouses, and Operational Territory', implying that the operational territory is known and documented."
+        }
+      ]
+    }
+  ]
+}

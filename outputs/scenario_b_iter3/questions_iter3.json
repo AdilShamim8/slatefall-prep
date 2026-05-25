@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "iteration": 3,
+    "scenario": "scenario_b",
+    "session_id": 3,
+    "section_ids": [
+      8
+    ],
+    "is_adaptive": true,
+    "total_questions": 5,
+    "correct_answers": 1,
+    "score_percentage": "20.0%",
+    "generated_at": "2026-05-22T06:08:39.841132",
+    "weak_topics_used": []
+  },
+  "questions": [
+    {
+      "question_text": "Why are known bases and safehouses crucial for an organization's operational territory?",
+      "choices": {
+        "A": "They provide a secure location for meetings",
+        "B": "They offer a strategic advantage in planning and executing operations",
+        "C": "They are used to store sensitive documents",
+        "D": "They are not relevant to the organization's operational territory"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: B is correct because knowing the organization's known bases and safehouses allows for a better understanding of their operational territory, enabling more informed decision-making and strategic planning. This addresses the common confusion about the significance of operational territory.",
+      "topic": "Operational Territory Importance",
+      "section_id": 8,
+      "user_answer": "A",
+      "is_correct": false,
+      "question_number": 1
+    },
+    {
+      "question_text": "What is the purpose of documenting case files?",
+      "choices": {
+        "A": "To track the organization's financial transactions",
+        "B": "To record documented engagements and incidents",
+        "C": "To identify potential security threats",
+        "D": "To outline the organization's operational territory"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: B is correct because case files are used to document engagements and incidents, providing valuable information for future reference and analysis. This addresses the common confusion about the purpose of case files.",
+      "topic": "Case Files Purpose",
+      "section_id": 8,
+      "user_answer": "A",
+      "is_correct": false,
+      "question_number": 2
+    },
+    {
+      "question_text": "Easier question: What is listed on the same level as known bases and safehouses?",
+      "choices": {
+        "A": "Case files",
+        "B": "Operational territory",
+        "C": "Known bases and safehouses",
+        "D": "Headquarters"
+      },
+      "correct_answer": "C",
+      "explanation": "Detailed explanation: C is correct because known bases and safehouses are listed on the same level as other sections in the document.",
+      "topic": "Organization Structure",
+      "section_id": 8,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 3
+    },
+    {
+      "question_text": "Why is it essential to understand the organization's known bases and safehouses?",
+      "choices": {
+        "A": "To identify potential security threats",
+        "B": "To plan and execute operations more effectively",
+        "C": "To track the organization's financial transactions",
+        "D": "To understand the organization's operational territory"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: B is correct because understanding the organization's known bases and safehouses is crucial for planning and executing operations more effectively, allowing the organization to adapt to changing circumstances and stay ahead of competitors. This addresses the common confusion about the importance of understanding the organization's known bases and safehouses.",
+      "topic": "Organization Understanding",
+      "section_id": 8,
+      "user_answer": "D",
+      "is_correct": false,
+      "question_number": 4
+    },
+    {
+      "question_text": "What can be inferred about the organization's operational territory based on the listed sections?",
+      "choices": {
+        "A": "The organization operates globally",
+        "B": "The organization operates in a specific geographic region",
+        "C": "The organization's operational territory is not relevant",
+        "D": "The organization's operational territory is not listed"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: B is correct because the listed sections suggest a focus on specific geographic regions, implying that the organization's operational territory is limited to these areas. This addresses the common confusion about the organization's operational territory.",
+      "topic": "Operational Territory Inference",
+      "section_id": 8,
+      "user_answer": "D",
+      "is_correct": false,
+      "question_number": 5
+    }
+  ]
+}

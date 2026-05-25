@@ -1,0 +1,4 @@
+[2026-05-22 12:09:54] INFO      kb.database                     Database engine created: kb_store\knowledge_base.db
+[2026-05-22 12:09:54] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)
+[2026-05-22 12:09:55] INFO      core.llm_client                 LLM provider: Groq | model: llama-3.1-8b-instant
+[2026-05-22 12:09:55] INFO      kb.database                     Database tables initialized (PrepSession, QuestionResult)

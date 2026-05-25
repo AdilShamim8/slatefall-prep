@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "iteration": 1,
+    "scenario": "scenario_b",
+    "session_id": 1,
+    "section_ids": [
+      5,
+      8
+    ],
+    "is_adaptive": false,
+    "total_questions": 10,
+    "correct_answers": 6,
+    "score_percentage": "60.0%",
+    "generated_at": "2026-05-22T06:08:20.331367",
+    "weak_topics_used": []
+  },
+  "questions": [
+    {
+      "question_text": "What is the name of the section?",
+      "choices": {
+        "A": "Operational Plans",
+        "B": "Operational Tactics and Combat Doctrine",
+        "C": "Tactical Doctrine",
+        "D": "Combat Operations"
+      },
+      "correct_answer": "B",
+      "explanation": "B is correct because the text explicitly states 'SECTION: Operational Tactics and Combat Doctrine'.",
+      "topic": "Operational Tactics",
+      "section_id": 5,
+      "user_answer": "A",
+      "is_correct": false,
+      "question_number": 1
+    },
+    {
+      "question_text": "What type of knowledge is the section intended to measure?",
+      "choices": {
+        "A": "Surface-level Memorization",
+        "B": "Genuine Understanding",
+        "C": "Critical Thinking",
+        "D": "Analytical Skills"
+      },
+      "correct_answer": "B",
+      "explanation": "B is correct because the requirements specify that each question should 'test genuine understanding, not surface memorization'.",
+      "topic": "Assessment Type",
+      "section_id": 5,
+      "user_answer": "A",
+      "is_correct": false,
+      "question_number": 2
+    },
+    {
+      "question_text": "Which of the following is NOT a requirement for the questions?",
+      "choices": {
+        "A": "Each question must be clear and specific",
+        "B": "All choices must be plausible",
+        "C": "The correct answer must be obvious",
+        "D": "All 4 choices must be plausible"
+      },
+      "correct_answer": "C",
+      "explanation": "C is correct because the requirements explicitly state that 'All 4 choices must be plausible (no obviously wrong options)', which is the opposite of option C.",
+      "topic": "Question Requirements",
+      "section_id": 5,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 3
+    },
+    {
+      "question_text": "What is the purpose of varying the difficulty of the questions?",
+      "choices": {
+        "A": "To make the assessment more challenging",
+        "B": "To provide a range of question types",
+        "C": "To cover different topics and concepts",
+        "D": "To increase the time required to complete the assessment"
+      },
+      "correct_answer": "C",
+      "explanation": "C is correct because the requirements state that 'no two questions should test the same idea' and 'questions should vary in difficulty'.",
+      "topic": "Question Difficulty",
+      "section_id": 5,
+      "user_answer": "D",
+      "is_correct": false,
+      "question_number": 4
+    },
+    {
+      "question_text": "What does the section heading imply about the content of the section?",
+      "choices": {
+        "A": "It will cover operational plans and tactics",
+        "B": "It will focus on combat doctrine and operational tactics",
+        "C": "It will cover only combat operations",
+        "D": "It will focus on tactical doctrine"
+      },
+      "correct_answer": "B",
+      "explanation": "B is correct because the section heading explicitly states 'Operational Tactics and Combat Doctrine', implying a focus on both topics.",
+      "topic": "Section Content",
+      "section_id": 5,
+      "user_answer": "D",
+      "is_correct": false,
+      "question_number": 5
+    },
+    {
+      "question_text": "What types of information are documented in case files?",
+      "choices": {
+        "A": "Known Bases and Safehouses",
+        "B": "Documented Engagements and Incidents",
+        "C": "Operational Territory and Plans",
+        "D": "Tactical Operations and Strategies"
+      },
+      "correct_answer": "B",
+      "explanation": "B is correct because the text specifically mentions 'Case Files: Documented Engagements and Incidents'.",
+      "topic": "Case Files",
+      "section_id": 8,
+      "user_answer": "B",
+      "is_correct": true,
+      "question_number": 6
+    },
+    {
+      "question_text": "Where are safehouses typically located?",
+      "choices": {
+        "A": "Operational Territory",
+        "B": "Known Bases",
+        "C": "Remote areas outside of operational territory",
+        "D": "Public areas with high foot traffic"
+      },
+      "correct_answer": "C",
+      "explanation": "C is correct because the text implies safehouses are located outside of known operational territory, as they are referred to as 'safehouses'.",
+      "topic": "Safehouses",
+      "section_id": 8,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 7
+    },
+    {
+      "question_text": "What do the listed sections suggest about the organization's focus?",
+      "choices": {
+        "A": "Logistical Support and Supply Chain Management",
+        "B": "Intelligence Gathering and Tactical Operations",
+        "C": "Security and Counter-Intelligence",
+        "D": "Administrative and Bureaucratic Tasks"
+      },
+      "correct_answer": "B",
+      "explanation": "B is correct because the listed sections, such as 'Known Bases, Safehouses, and Operational Territory', suggest a focus on planning and executing tactical operations.",
+      "topic": "Organization Focus",
+      "section_id": 8,
+      "user_answer": "B",
+      "is_correct": true,
+      "question_number": 8
+    },
+    {
+      "question_text": "What is the purpose of listing known bases and safehouses?",
+      "choices": {
+        "A": "To conceal the organization's operational territory",
+        "B": "To document and secure the organization's operational territory",
+        "C": "To plan and coordinate tactical operations",
+        "D": "To manage the organization's logistical supply chain"
+      },
+      "correct_answer": "B",
+      "explanation": "B is correct because listing known bases and safehouses would allow the organization to document and secure their operational territory.",
+      "topic": "Known Bases and Safehouses",
+      "section_id": 8,
+      "user_answer": "B",
+      "is_correct": true,
+      "question_number": 9
+    },
+    {
+      "question_text": "What is implied about the organization's operational territory?",
+      "choices": {
+        "A": "It is highly secure and well-defended",
+        "B": "It is highly classified and restricted",
+        "C": "It is known and documented",
+        "D": "It is constantly changing and dynamic"
+      },
+      "correct_answer": "C",
+      "explanation": "C is correct because the text lists 'Known Bases, Safehouses, and Operational Territory', implying that the operational territory is known and documented.",
+      "topic": "Operational Territory",
+      "section_id": 8,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 10
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "iteration": 2,
+    "scenario": "scenario_b",
+    "session_id": 2,
+    "section_ids": [
+      6,
+      8,
+      9
+    ],
+    "is_adaptive": true,
+    "total_questions": 10,
+    "correct_answers": 6,
+    "score_percentage": "60.0%",
+    "generated_at": "2026-05-22T06:08:24.996881",
+    "weak_topics_used": []
+  },
+  "questions": [
+    {
+      "question_text": "Why are allies crucial to an organization's operations?",
+      "choices": {
+        "A": "They provide financial support",
+        "B": "They offer strategic and tactical assistance",
+        "C": "They serve as a distraction",
+        "D": "They are used for recruitment"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: Allies are crucial to an organization's operations because they offer strategic and tactical assistance, thereby enhancing the organization's capabilities and increasing its chances of success. This addresses the common confusion about understanding the significance of allies in organizational operations.",
+      "topic": "Allies and Networks Importance",
+      "section_id": 6,
+      "user_answer": "A",
+      "is_correct": false,
+      "question_number": 1
+    },
+    {
+      "question_text": "What is the primary purpose of listing known bases and safehouses?",
+      "choices": {
+        "A": "To conceal an organization's true intentions",
+        "B": "To demonstrate an organization's territorial control",
+        "C": "To provide a strategic advantage",
+        "D": "To protect an organization's members"
+      },
+      "correct_answer": "D",
+      "explanation": "Detailed explanation: The primary purpose of listing known bases and safehouses is to protect an organization's members by providing them with secure locations to operate and hide. This addresses the common confusion about the purpose of listing operational infrastructure.",
+      "topic": "Bases and Safehouses Purpose",
+      "section_id": 6,
+      "user_answer": "A",
+      "is_correct": false,
+      "question_number": 2
+    },
+    {
+      "question_text": "Which of the following is an example of a weak point in an organization's network?",
+      "choices": {
+        "A": "A well-funded ally",
+        "B": "A member with a compromised identity",
+        "C": "A strong communication system",
+        "D": "A well-planned operation"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: A member with a compromised identity is an example of a weak point in an organization's network because it can compromise the entire operation and put all members at risk. This addresses the common confusion about identifying vulnerabilities in an organization's network.",
+      "topic": "Network Vulnerabilities",
+      "section_id": 6,
+      "user_answer": "B",
+      "is_correct": true,
+      "question_number": 3
+    },
+    {
+      "question_text": "What is the relationship between an organization's networks and its operational territory?",
+      "choices": {
+        "A": "Networks expand an organization's operational territory",
+        "B": "An organization's operational territory defines its networks",
+        "C": "Networks and operational territory are unrelated",
+        "D": "Networks reduce an organization's operational territory"
+      },
+      "correct_answer": "A",
+      "explanation": "Detailed explanation: An organization's networks often expand its operational territory by establishing relationships with other groups and individuals in new areas, thereby increasing its reach and influence. This addresses the common confusion about the relationship between an organization's networks and its operational territory.",
+      "topic": "Networks and Operational Territory",
+      "section_id": 6,
+      "user_answer": "D",
+      "is_correct": false,
+      "question_number": 4
+    },
+    {
+      "question_text": "What is the main advantage of having a diverse network of allies?",
+      "choices": {
+        "A": "Increased financial resources",
+        "B": "Improved strategic planning",
+        "C": "Enhanced adaptability and resilience",
+        "D": "Better recruitment opportunities"
+      },
+      "correct_answer": "C",
+      "explanation": "Detailed explanation: The main advantage of having a diverse network of allies is that it enhances an organization's adaptability and resilience by providing access to a wide range of skills, expertise, and resources, thereby enabling it to respond more effectively to changing circumstances. This addresses the common confusion about the benefits of having a diverse network of allies.",
+      "topic": "Allies and Networks Diversity",
+      "section_id": 6,
+      "user_answer": "D",
+      "is_correct": false,
+      "question_number": 5
+    },
+    {
+      "question_text": "What is the significance of documenting known bases and safehouses?",
+      "choices": {
+        "A": "To deceive enemy troops about the organization's strength",
+        "B": "To facilitate tactical planning and strategic decision-making",
+        "C": "To intimidate rival organizations",
+        "D": "To mislead the public about the organization's intentions"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: B is correct because listing known bases and safehouses allows the organization to plan and coordinate operations effectively, making it a crucial aspect of their operational territory. This is a common misunderstanding, as some students may think it's only about deception or intimidation.",
+      "topic": "Safehouses",
+      "section_id": 8,
+      "user_answer": "B",
+      "is_correct": true,
+      "question_number": 6
+    },
+    {
+      "question_text": "Why is it essential to understand the organization's known bases and safehouses?",
+      "choices": {
+        "A": "To learn about the organization's past successes",
+        "B": "To identify potential vulnerabilities and threats",
+        "C": "To understand the organization's values and mission",
+        "D": "To anticipate future operations and make informed decisions"
+      },
+      "correct_answer": "B",
+      "explanation": "Detailed explanation: B is correct because knowing the organization's known bases and safehouses allows analysts to identify potential vulnerabilities and threats, making it crucial for tactical planning and strategic decision-making. This is a common area of confusion, as some students may think it's only about historical information or organizational values.",
+      "topic": "Operational Territory",
+      "section_id": 8,
+      "user_answer": "B",
+      "is_correct": true,
+      "question_number": 7
+    },
+    {
+      "question_text": "What is the relationship between case files and the organization's operational territory?",
+      "choices": {
+        "A": "Case files are unrelated to the operational territory",
+        "B": "Case files are used to document incidents outside the operational territory",
+        "C": "Case files are used to plan operations within the operational territory",
+        "D": "Case files are used to evaluate the effectiveness of operations within the operational territory"
+      },
+      "correct_answer": "C",
+      "explanation": "Detailed explanation: C is correct because case files document incidents and engagements that occur within the organization's operational territory, making them a crucial tool for tactical planning and strategic decision-making. This is a common area of confusion, as some students may think case files are only about documenting past events.",
+      "topic": "Case Files",
+      "section_id": 8,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 8
+    },
+    {
+      "question_text": "What is the purpose of listing sections in the document?",
+      "choices": {
+        "A": "To confuse the reader about the organization's structure",
+        "B": "To highlight the organization's focus on documentation",
+        "C": "To provide an overview of the organization's operations",
+        "D": "To list the organization's leadership team"
+      },
+      "correct_answer": "C",
+      "explanation": "Detailed explanation: C is correct because the listed sections provide an overview of the organization's operations, including known bases, safehouses, and case files. This is a basic understanding, and the question aims to build confidence in the student's knowledge.",
+      "topic": "Organization",
+      "section_id": 8,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 9
+    },
+    {
+      "question_text": "What do the listed sections suggest about the organization's priorities?",
+      "choices": {
+        "A": "The organization prioritizes intelligence gathering over operations",
+        "B": "The organization prioritizes operations over intelligence gathering",
+        "C": "The organization prioritizes documentation over both intelligence gathering and operations",
+        "D": "The organization prioritizes both intelligence gathering and operations equally"
+      },
+      "correct_answer": "C",
+      "explanation": "Detailed explanation: C is correct because the listed sections suggest that the organization prioritizes documentation, as evidenced by the sections on case files, known bases, and safehouses. This is a more in-depth question that requires the student to analyze the information and make connections between the different sections.",
+      "topic": "Organization",
+      "section_id": 8,
+      "user_answer": "C",
+      "is_correct": true,
+      "question_number": 10
+    }
+  ]
+}

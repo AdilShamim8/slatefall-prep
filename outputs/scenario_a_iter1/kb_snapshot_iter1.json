@@ -1,0 +1,664 @@
+{
+  "metadata": {
+    "iteration": 1,
+    "scenario": "scenario_a",
+    "snapshot_taken_at": "2026-05-22T06:04:13.420361",
+    "current_session_id": 5,
+    "description": "Top-5 most recent sessions at the moment this iteration completed. Reviewers use this to verify KB state and adaptive prompting grounds in real data."
+  },
+  "recent_sessions": [
+    {
+      "id": 5,
+      "section_ids": "1,2",
+      "created_at": "2026-05-22T06:04:13.398807",
+      "score": 0.4,
+      "total_questions": 10,
+      "correct_count": 4,
+      "percentage": "40.0%",
+      "is_adaptive": true,
+      "weak_topics_used": [
+        "System Fallback",
+        "Identity, Background, and Public Status"
+      ],
+      "questions": [
+        {
+          "id": 25,
+          "session_id": 5,
+          "section_id": 1,
+          "question_text": "Why does a character's Public Status often influence their System Fallback?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "Public Status has no impact on System Fallback",
+            "B": "Public Status can affect a character's fallback options due to societal expectations",
+            "C": "System Fallback is solely determined by a character's Identity",
+            "D": "Public Status is irrelevant to a character's fallback choices"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "A character's Public Status can influence their System Fallback because societal expectations and norms can impact the options they consider when faced with a crisis. For example, a character with a high public status may be more likely to choose a fallback option that maintains their reputation, while a character with a low public status may prioritize a fallback option that ensures their safety. This addresses the common confusion about how System Fallback is impacted by Public Status."
+        },
+        {
+          "id": 26,
+          "session_id": 5,
+          "section_id": 1,
+          "question_text": "How does a character's Identity impact their System Fallback?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "A character's Identity has no impact on their System Fallback",
+            "B": "A character's Identity influences their System Fallback through their values and goals",
+            "C": "A character's Identity is solely determined by their System Fallback",
+            "D": "System Fallback is independent of a character's Identity"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "A character's Identity can significantly impact their System Fallback because their values, goals, and motivations influence the options they consider when faced with a crisis. For example, a character with a strong sense of justice may choose a fallback option that prioritizes helping others, while a character with a self-preservationist mindset may prioritize their own safety. This addresses the common confusion about how Identity affects System Fallback."
+        },
+        {
+          "id": 27,
+          "session_id": 5,
+          "section_id": 1,
+          "question_text": "What is one key benefit of having a clear Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "A clear Public Status provides no benefits",
+            "B": "A clear Public Status can help a character navigate complex social situations",
+            "C": "A clear Public Status is only relevant in fantasy settings",
+            "D": "A clear Public Status is solely determined by a character's Background"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Having a clear Public Status can help a character navigate complex social situations because it provides a clear understanding of their reputation, influence, and expectations. This can inform their decision-making and interactions with others, leading to more effective and successful outcomes. This addresses the common confusion about the benefits of a clear Public Status."
+        },
+        {
+          "id": 28,
+          "session_id": 5,
+          "section_id": 1,
+          "question_text": "What is an example of a well-designed Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "A character with a Public Status that is constantly changing",
+            "B": "A character with a Public Status that is clearly defined and consistent",
+            "C": "A character with a Public Status that is solely determined by their Background",
+            "D": "A character with a Public Status that is irrelevant to the story"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "A well-designed Public Status is one that is clearly defined and consistent, providing a clear understanding of a character's reputation, influence, and expectations. For example, a character who is known as a skilled warrior and leader has a clear Public Status that can inform their interactions with others and influence the story. This addresses the common confusion about what constitutes a well-designed Public Status."
+        },
+        {
+          "id": 29,
+          "session_id": 5,
+          "section_id": 1,
+          "question_text": "What is the primary focus of Powers, Abilities, and Documented Limits?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "The primary focus is on a character's System Fallback",
+            "B": "The primary focus is on a character's Identity and Background",
+            "C": "The primary focus is on a character's Powers, Abilities, and Documented Limits",
+            "D": "The primary focus is on a character's Public Status"
+          },
+          "correct_answer": "C",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "The primary focus of Powers, Abilities, and Documented Limits is on a character's special abilities, powers, and limitations. This includes their superpowers, skills, and any constraints that affect their abilities. This addresses the common confusion about the topic and provides a clear understanding of its focus."
+        },
+        {
+          "id": 30,
+          "session_id": 5,
+          "section_id": 2,
+          "question_text": "Why is a well-defined System Fallback crucial for a character's consistency?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "It allows for more plot twists and surprises.",
+            "B": "It ensures the character's actions align with their established abilities and personality.",
+            "C": "It gives the writer more freedom to change the character's traits without consequences.",
+            "D": "It only matters for villains, not heroes."
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "A well-defined System Fallback is crucial for a character's consistency because it ensures their actions align with their established abilities and personality. This helps maintain a believable and engaging story. This addresses the common confusion about System Fallback being irrelevant or only applicable to specific character types."
+        },
+        {
+          "id": 31,
+          "session_id": 5,
+          "section_id": 2,
+          "question_text": "What impact does a character's Public Status have on their relationships with others?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "It makes them more isolated and alone.",
+            "B": "It influences how others perceive and interact with them.",
+            "C": "It has no effect on their relationships.",
+            "D": "It only affects their romantic relationships."
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "A character's Public Status has a significant impact on their relationships with others, as it influences how others perceive and interact with them. This can affect their social connections, alliances, and even friendships. This addresses the common confusion about Public Status being irrelevant to character relationships."
+        },
+        {
+          "id": 32,
+          "session_id": 5,
+          "section_id": 2,
+          "question_text": "What is the main advantage of clearly defining a character's Powers?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "It allows for more powerful and impressive abilities.",
+            "B": "It helps maintain a consistent and believable story.",
+            "C": "It gives the writer more freedom to change the character's abilities without consequences.",
+            "D": "It only matters for villains, not heroes."
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Clearly defining a character's Powers is essential for maintaining a consistent and believable story. By establishing clear guidelines for their abilities, writers can avoid plot holes and inconsistencies, ensuring a more engaging and immersive experience for readers. This addresses the common confusion about Powers being only about showing off a character's abilities."
+        },
+        {
+          "id": 33,
+          "session_id": 5,
+          "section_id": 2,
+          "question_text": "Which of the following is an example of a well-designed Ability?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "The ability to fly without any limitations or consequences.",
+            "B": "The ability to summon a powerful storm, but only during a full moon.",
+            "C": "The ability to read minds, but only with the consent of the person being read.",
+            "D": "The ability to turn invisible, but only when no one is looking."
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "A well-designed Ability should have clear limitations and consequences, making it more believable and engaging. The ability to summon a powerful storm only during a full moon is a good example of this, as it establishes a specific trigger and a clear impact on the character. This addresses the common confusion about Abilities being overly powerful or without any limitations."
+        },
+        {
+          "id": 34,
+          "session_id": 5,
+          "section_id": 2,
+          "question_text": "What is one key benefit of having Documented Limits?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "It allows for more flexibility and freedom in the story.",
+            "B": "It helps maintain a consistent and believable story.",
+            "C": "It makes the character's abilities more impressive and intimidating.",
+            "D": "It only matters for villains, not heroes."
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Having Documented Limits is crucial for maintaining a consistent and believable story. By establishing clear guidelines for a character's abilities, writers can avoid plot holes and inconsistencies, ensuring a more engaging and immersive experience for readers. This addresses the common confusion about Documented Limits being unnecessary or only applicable to specific character types."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "section_ids": "1,2",
+      "created_at": "2026-05-22T06:04:08.201820",
+      "score": 0.6,
+      "total_questions": 10,
+      "correct_count": 6,
+      "percentage": "60.0%",
+      "is_adaptive": true,
+      "weak_topics_used": [
+        "System Fallback",
+        "Identity, Background, and Public Status"
+      ],
+      "questions": [
+        {
+          "id": 15,
+          "session_id": 4,
+          "section_id": 1,
+          "question_text": "Why is it crucial to establish a character's Identity, Background, and Public Status in a fictional work?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "It enhances plot progression",
+            "B": "It humanizes the character and allows for relatable interactions",
+            "C": "It solely serves as a narrative device",
+            "D": "It is not essential for character development"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Detailed explanation: B is correct because establishing a character's Identity, Background, and Public Status allows readers to empathize with them, making interactions more believable and engaging. This addresses common confusion about the importance of these aspects in character development. (Source: The significance of Identity, Background, and Public Status in creating relatable characters)"
+        },
+        {
+          "id": 16,
+          "session_id": 4,
+          "section_id": 1,
+          "question_text": "What are the potential consequences of neglecting to define a character's System Fallback?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "It leads to inconsistencies in character actions",
+            "B": "It results in a lack of character growth",
+            "C": "It has no significant impact on the story",
+            "D": "It solely affects the plot's pacing"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Detailed explanation: A is correct because neglecting to define a character's System Fallback can lead to inconsistencies in their actions and decisions, undermining the story's credibility. This addresses common confusion about the role of System Fallback in character development. (Source: The importance of defining a character's fallback in maintaining narrative coherence)"
+        },
+        {
+          "id": 17,
+          "session_id": 4,
+          "section_id": 1,
+          "question_text": "What is the primary advantage of having a well-defined Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "It simplifies character interactions",
+            "B": "It provides insight into the character's motivations",
+            "C": "It adds complexity to the story",
+            "D": "It has no significant impact on character development"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Detailed explanation: B is correct because a well-defined Public Status provides insight into the character's motivations, desires, and fears, making their actions and decisions more understandable. This addresses common confusion about the role of Public Status in character development. (Source: The significance of Public Status in revealing character motivations)"
+        },
+        {
+          "id": 18,
+          "session_id": 4,
+          "section_id": 1,
+          "question_text": "Which of the following is an example of a well-designed Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "Being a renowned scientist",
+            "B": "Being a struggling artist",
+            "C": "Being a superhero",
+            "D": "Being a famous actor"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Detailed explanation: B is correct because being a struggling artist is a well-designed Public Status as it presents a relatable and nuanced character, allowing for a more engaging storyline. This addresses common confusion about the characteristics of a well-designed Public Status. (Source: The importance of a nuanced Public Status in character development)"
+        },
+        {
+          "id": 19,
+          "session_id": 4,
+          "section_id": 1,
+          "question_text": "What is the primary factor that affects a character's System Fallback?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "Their Public Status",
+            "B": "Their Identity and Background",
+            "C": "Their Abilities and Powers",
+            "D": "Their personality traits"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Detailed explanation: B is correct because a character's Identity and Background play a significant role in determining their System Fallback, as it influences their thought patterns, values, and coping mechanisms. This addresses common confusion about the factors that affect a character's System Fallback. (Source: The relationship between Identity, Background, and System Fallback)"
+        },
+        {
+          "id": 20,
+          "session_id": 4,
+          "section_id": 2,
+          "question_text": "Why is clearly defining Powers crucial in a hero's profile?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "To showcase the hero's physical strength",
+            "B": "To establish the hero's unique abilities and capabilities",
+            "C": "To focus on the hero's background and public status",
+            "D": "To highlight the hero's equipment and tools"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Clearly defining Powers is crucial in a hero's profile as it establishes the hero's unique abilities and capabilities, making it easier for the audience to understand their role and impact in the story. This addresses the common confusion about Powers and Abilities, which can sometimes be overlooked in favor of other aspects of a hero's profile."
+        },
+        {
+          "id": 21,
+          "session_id": 4,
+          "section_id": 2,
+          "question_text": "What is the significance of Documented Limits in a hero's powers?",
+          "topic": "Documented Limits and System Fallback",
+          "choices": {
+            "A": "It helps to create a sense of realism in the hero's abilities",
+            "B": "It prevents the hero from becoming overpowered",
+            "C": "It adds complexity to the hero's backstory",
+            "D": "It has no impact on the hero's abilities"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Documented Limits are essential in a hero's powers as they prevent the hero from becoming overpowered, creating a sense of balance and realism in the story. This is crucial in maintaining a well-structured System Fallback, where the hero's abilities are grounded and believable. This addresses the common confusion about System Fallback and Documented Limits, which can sometimes be overlooked or misunderstood."
+        },
+        {
+          "id": 22,
+          "session_id": 4,
+          "section_id": 2,
+          "question_text": "What is the purpose of Abilities in a hero's profile?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "To describe the hero's physical appearance",
+            "B": "To outline the hero's skills and talents",
+            "C": "To list the hero's powers and abilities",
+            "D": "To explain the hero's motivations and goals"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Abilities in a hero's profile are meant to outline the hero's skills and talents, providing insight into their strengths and weaknesses. This helps to create a well-rounded and believable character, making it easier for the audience to connect with them. This addresses the common confusion about Abilities and Powers, which can sometimes be interchangeable or misunderstood."
+        },
+        {
+          "id": 23,
+          "session_id": 4,
+          "section_id": 2,
+          "question_text": "How does System Fallback impact character development in a hero's profile?",
+          "topic": "System Fallback and Character Development",
+          "choices": {
+            "A": "It limits the hero's ability to grow and evolve",
+            "B": "It creates a sense of predictability and routine",
+            "C": "It allows the hero to adapt and respond to new situations",
+            "D": "It has no impact on character development"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "System Fallback has a significant impact on character development, as it allows the hero to adapt and respond to new situations, creating a sense of realism and authenticity. This is crucial in maintaining a well-structured hero's profile, where the character's abilities and limitations are grounded and believable. This addresses the common confusion about System Fallback and its role in character development, which can sometimes be overlooked or misunderstood."
+        },
+        {
+          "id": 24,
+          "session_id": 4,
+          "section_id": 2,
+          "question_text": "What is the primary focus of Abilities in a hero's profile?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "To list the hero's powers and abilities",
+            "B": "To outline the hero's skills and talents",
+            "C": "To describe the hero's physical appearance",
+            "D": "To explain the hero's motivations and goals"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The primary focus of Abilities in a hero's profile is to outline the hero's skills and talents, providing insight into their strengths and weaknesses. This helps to create a well-rounded and believable character, making it easier for the audience to connect with them. This addresses the common confusion about Abilities and Powers, which can sometimes be interchangeable or misunderstood."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section_ids": "1,2",
+      "created_at": "2026-05-22T06:02:32.229922",
+      "score": 0.6,
+      "total_questions": 10,
+      "correct_count": 6,
+      "percentage": "60.0%",
+      "is_adaptive": true,
+      "weak_topics_used": [
+        "System Fallback"
+      ],
+      "questions": [
+        {
+          "id": 5,
+          "session_id": 3,
+          "section_id": 1,
+          "question_text": "Why is System Fallback important in Identity, Background, and Public Status?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "It allows characters to bypass rules and regulations.",
+            "B": "It serves as a safety net to prevent unbalanced character progression.",
+            "C": "It is a feature exclusive to high-level characters.",
+            "D": "It has no impact on gameplay or character development."
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "System Fallback is crucial in Identity, Background, and Public Status because it ensures characters don't become overpowered by providing a mechanism to adjust their abilities and powers in case of balance issues. This addresses the common confusion about System Fallback's purpose and significance."
+        },
+        {
+          "id": 6,
+          "session_id": 3,
+          "section_id": 1,
+          "question_text": "What is the primary benefit of clearly defined Identity, Background, and Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "It enhances character customization and flexibility.",
+            "B": "It streamlines game mechanics and reduces complexity.",
+            "C": "It fosters player engagement and immersion.",
+            "D": "It has no direct impact on gameplay."
+          },
+          "correct_answer": "C",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Clear definitions of Identity, Background, and Public Status are essential because they allow players to become fully invested in their characters, making the gaming experience more engaging and enjoyable. This is achieved through the development of a well-rounded character identity, background story, and public perception."
+        },
+        {
+          "id": 7,
+          "session_id": 3,
+          "section_id": 1,
+          "question_text": "How does Public Status impact character development in the context of System Fallback?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "It influences the character's ability to access System Fallback.",
+            "B": "It affects the character's balance and power level.",
+            "C": "It has no direct impact on character development or System Fallback.",
+            "D": "It determines the character's access to certain abilities."
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Public Status plays a significant role in character development, particularly in relation to System Fallback, as it can affect the character's balance and power level. A character's public perception can influence how their abilities and powers are perceived, potentially impacting their access to System Fallback and overall balance."
+        },
+        {
+          "id": 8,
+          "session_id": 3,
+          "section_id": 1,
+          "question_text": "What is the main advantage of a well-structured Background in Identity, Background, and Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "It provides a rich history for the character.",
+            "B": "It streamlines character development and progression.",
+            "C": "It enhances player engagement and immersion.",
+            "D": "It has no direct impact on gameplay."
+          },
+          "correct_answer": "A",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "A well-structured Background is vital in Identity, Background, and Public Status because it offers a rich and detailed history for the character, allowing players to fully develop their character's identity and personality. This, in turn, enhances the overall gaming experience and player engagement."
+        },
+        {
+          "id": 9,
+          "session_id": 3,
+          "section_id": 1,
+          "question_text": "Which of the following is an important consideration when developing a character's Identity, Background, and Public Status?",
+          "topic": "Identity, Background, and Public Status",
+          "choices": {
+            "A": "The character's ability to access certain powers or abilities.",
+            "B": "The character's balance and power level in relation to System Fallback.",
+            "C": "The character's public perception and reputation.",
+            "D": "The character's backstory and personality traits."
+          },
+          "correct_answer": "D",
+          "user_answer": "C",
+          "is_correct": false,
+          "explanation": "When developing a character's Identity, Background, and Public Status, it is essential to consider their backstory and personality traits. This will help create a well-rounded and believable character that immerses players in the game world. A strong identity, background, and public status will enrich the gaming experience and make the character more relatable and engaging."
+        },
+        {
+          "id": 10,
+          "session_id": 3,
+          "section_id": 2,
+          "question_text": "Why does System Fallback matter in a hero's abilities?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "It allows for limitless growth",
+            "B": "It provides a safety net for powers to fall back on",
+            "C": "It enables the ability to create new powers",
+            "D": "It has no impact on a hero's abilities"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "System Fallback matters because it provides a safety net for powers to fall back on, preventing them from becoming too unreliable or unstable. This is especially important for heroes who rely on their powers to save the day."
+        },
+        {
+          "id": 11,
+          "session_id": 3,
+          "section_id": 2,
+          "question_text": "What role does Documented Limits play in a hero's powers?",
+          "topic": "Documented Limits",
+          "choices": {
+            "A": "It outlines the powers' potential side effects",
+            "B": "It defines the maximum power a hero can use",
+            "C": "It provides a record of a hero's past feats",
+            "D": "It determines the hero's level of physical strength"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Documented Limits play a crucial role in a hero's powers by defining the maximum power a hero can use, preventing them from overextending themselves and potentially causing harm to themselves or others."
+        },
+        {
+          "id": 12,
+          "session_id": 3,
+          "section_id": 2,
+          "question_text": "Which of the following is an example of a well-designed Power?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "A power that can only be used in a specific location",
+            "B": "A power that has no known limitations or weaknesses",
+            "C": "A power that has a clear set of rules and constraints",
+            "D": "A power that can only be used by a specific person"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "A well-designed Power has a clear set of rules and constraints, making it easier to understand and utilize effectively. This includes defined limitations, weaknesses, and potential side effects."
+        },
+        {
+          "id": 13,
+          "session_id": 3,
+          "section_id": 2,
+          "question_text": "What is the purpose of Abilities in a hero's profile?",
+          "topic": "Powers, Abilities, and Documented Limits",
+          "choices": {
+            "A": "To list a hero's past achievements",
+            "B": "To describe a hero's physical strength",
+            "C": "To outline a hero's skills and talents",
+            "D": "To define a hero's magical abilities"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Abilities serve to outline a hero's skills and talents, providing a comprehensive picture of their capabilities and strengths."
+        },
+        {
+          "id": 14,
+          "session_id": 3,
+          "section_id": 2,
+          "question_text": "What is one key benefit of having Documented Limits?",
+          "topic": "Documented Limits",
+          "choices": {
+            "A": "It allows heroes to use their powers without restraint",
+            "B": "It helps heroes to understand their powers better",
+            "C": "It provides a competitive edge over other heroes",
+            "D": "It has no impact on a hero's performance"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "One key benefit of having Documented Limits is that it helps heroes to understand their powers better, allowing them to use their abilities more effectively and safely."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section_ids": "1,2",
+      "created_at": "2026-05-22T06:02:27.699103",
+      "score": 0.0,
+      "total_questions": 2,
+      "correct_count": 0,
+      "percentage": "0.0%",
+      "is_adaptive": true,
+      "weak_topics_used": [
+        "System Fallback"
+      ],
+      "questions": [
+        {
+          "id": 3,
+          "session_id": 2,
+          "section_id": 1,
+          "question_text": "What is the primary focus of Identity, Background, and Public Status?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "[LLM error — could not generate question]",
+            "B": "Check logs for details",
+            "C": "Retry the session",
+            "D": "Verify your API key in .env"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "This is a fallback question. The LLM failed to generate a real question. Check logs."
+        },
+        {
+          "id": 4,
+          "session_id": 2,
+          "section_id": 2,
+          "question_text": "What is the primary focus of Powers, Abilities, and Documented Limits?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "[LLM error — could not generate question]",
+            "B": "Check logs for details",
+            "C": "Retry the session",
+            "D": "Verify your API key in .env"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "This is a fallback question. The LLM failed to generate a real question. Check logs."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "section_ids": "1,2",
+      "created_at": "2026-05-22T05:58:51.598610",
+      "score": 0.0,
+      "total_questions": 2,
+      "correct_count": 0,
+      "percentage": "0.0%",
+      "is_adaptive": false,
+      "weak_topics_used": [],
+      "questions": [
+        {
+          "id": 1,
+          "session_id": 1,
+          "section_id": 1,
+          "question_text": "What is the primary focus of Identity, Background, and Public Status?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "[LLM error — could not generate question]",
+            "B": "Check logs for details",
+            "C": "Retry the session",
+            "D": "Verify your API key in .env"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "This is a fallback question. The LLM failed to generate a real question. Check logs."
+        },
+        {
+          "id": 2,
+          "session_id": 1,
+          "section_id": 2,
+          "question_text": "What is the primary focus of Powers, Abilities, and Documented Limits?",
+          "topic": "System Fallback",
+          "choices": {
+            "A": "[LLM error — could not generate question]",
+            "B": "Check logs for details",
+            "C": "Retry the session",
+            "D": "Verify your API key in .env"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "This is a fallback question. The LLM failed to generate a real question. Check logs."
+        }
+      ]
+    }
+  ]
+}
